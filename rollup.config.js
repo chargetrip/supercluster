@@ -5,7 +5,7 @@ const config = (file, plugins) => ({
     input: 'index.js',
     output: {
         name: 'Supercluster',
-        format: 'umd',
+        format: 'cjs',
         indent: false,
         file
     },
